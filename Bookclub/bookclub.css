@@ -1,0 +1,70 @@
+.bookclub{
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size:large;
+}
+button{
+    border-radius: 50%;
+}
+.people{
+    border-radius: 50%;
+}
+#text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container2{
+    background-color: rgb(173, 223, 196);
+}
+.space{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    
+}
+.placeholder1{
+    border-radius: 50%;
+}
+.featurette{
+    font-size: larger;
+    font-weight: 300;
+}
+.container3{
+    display: inline-block;
+    background-color: rgb(162, 236, 198) ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-left: 0cap;
+    border-right: 0cap;
+}
+.aLilSpace{
+    height: 75px;
+    width: 100%;
+    display: flex;
+}
+h2{
+    text-align: left;
+}
+.carouselText{
+    text-align: left;
+    font-weight: 300;
+    font-size: larger;
+}
+.login{
+    background-color: rgb(162, 236, 198);
+}

@@ -1,0 +1,134 @@
+body{
+    background: rgb(173, 223, 196);
+    background-size: contain;
+}
+.container2{
+display: inline-block;
+background-color:rgb(173, 223, 196) ;
+}
+header{
+    background-color: white;
+    display: flex;
+    margin: 0%;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: none;
+    margin-right: none;
+}
+.button{
+    border: none;
+    border-radius: 20%;
+}
+.space{
+    height: 90px;
+}
+.logino{
+    display: flex;
+    background-color: rgb(173, 223, 196);
+}
+.pic{
+    display: flex;
+}
+.people{
+    border-radius: 50%;
+    height: 450px;
+    width: 450px;
+}
+.login{
+    display: block;
+    background-color: rgb(173, 223, 196);
+    height: 450px;
+    width:350px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.cred{
+    font-weight: 400;
+    font-size: x-large;
+}
+
+
+
+input[type=text], input[type=password], input[type=email] {
+width: 90%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+background-color: deepskyblue;
+color: white;
+padding: 14px 20px;
+margin: 8px 0;
+border: none;
+cursor: pointer;
+width: 80%;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+width: auto;
+padding: 10px 18px;
+background-color: #f44336;
+}
+
+.container {
+ background-color: white;
+ display: flex;
+ margin: 0%;
+ width: 100%;
+ background-size: 100%;
+ background-repeat: no-repeat;
+ background-size: cover;
+ margin-left: none;
+ margin-right: none;
+}
+
+/* The "Forgot password" text */
+span.psw {
+ float: right;
+ padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+span.psw {
+display: block;
+float: none;
+}
+.cancelbtn {
+width: 100%;
+}
+.code{
+    height: 60px;
+    width: 350px;
+}
+.need{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    opacity: 0;
+}
+}
+.submit{
+    background-color: #674ccf;
+    opacity: 0;
+}
+.container3{
+    background-color: rgb(173, 223, 196);
+}
